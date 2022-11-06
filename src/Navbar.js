@@ -5,8 +5,8 @@ export default function Navbar() {
     <div>
       <header>
         <nav>
-          <img src = "images/kitty.png" alt= "kitty" width = "60px" />
-          <ul>
+          <img src = "images/kitty.png" alt= "kitty" className = "nav-img" />
+          <ul className = "ul-list">
             <li>Care & Advice </li>
             <li>Cat Behaviour</li>
             <li>Common Questions About Cats</li>

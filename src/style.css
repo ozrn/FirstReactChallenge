@@ -1,0 +1,40 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+ margin: 0;
+
+}
+
+
+nav {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #2B4865;
+  height: 120px;
+  padding: 30px 25px;
+
+}
+
+.nav-img {
+  width: 80px;
+}
+
+.ul-list {
+
+  list-style: none;
+  display: flex;
+
+}
+
+.ul-list > li {
+
+  padding: 10px;
+  color: #DDEBF8;
+  font-weight: bold;
+}
