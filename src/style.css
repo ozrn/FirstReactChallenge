@@ -5,6 +5,7 @@
 
 body{
  margin: 0;
+ background-color: #B7C4CF;
 
 }
 
@@ -37,4 +38,35 @@ nav {
   padding: 10px;
   color: #DDEBF8;
   font-weight: bold;
+}
+
+main {
+
+padding: 60px 30px;
+color: #06283D;
+font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+
+  margin: 0;
+  font-size: 40px;
+  font-size: 40px;
+  letter-spacing: -0.06rem;
+}
+
+.main-list {
+
+  margin-top: 50px;
+}
+
+.main-list > li {
+
+  font-size: 20px;
+  padding-block: 10px;
+}
+
+.main-list > li::marker {
+
+  font-size: 1.5em;
 }
