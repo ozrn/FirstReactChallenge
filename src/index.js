@@ -1,15 +1,12 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
-import Navbar from "./Navbar"
-import Main from "./Main"
+import App from "./App"
+
 
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  <div>
-    <Navbar />
-    <Main />
-  </div>    
+  <App />
 )
